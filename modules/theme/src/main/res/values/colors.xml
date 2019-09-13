@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand Color to Material Color -->
+
+    <!-- Material Primary -->
+    <color name="mc_colorPrimary">@color/colorPrimary</color>
+    <color name="mc_colorPrimaryVariant">@color/colorPrimaryDark</color>
+    <color name="mc_colorOnPrimary">@color/textColor</color>
+
+    <!-- Material Secondary (Not Brand Secondary) -->
+    <color name="mc_colorSecondary">@color/colorPrimary</color>
+    <color name="mc_colorSecondaryVariant">@color/colorPrimaryDark</color>
+    <color name="mc_colorOnSecondary">@color/textColor</color>
+
+    <!-- Material Background -->
+    <color name="mc_colorBackground">@color/backgroundGrey</color>
+    <color name="mc_colorOnBackground">@color/mc_textColorPrimary</color>
+
+    <!-- Material Surface -->
+    <color name="mc_colorSurface">@color/backgroundWhite</color>
+    <color name="mc_colorOnSurface">@color/mc_textColorPrimary</color>
+
+    <!-- Texts -->
+    <color name="mc_textColorPrimary">@color/textColor</color>
+    <color name="mc_textColorSecondary">@color/textColorGrey</color>
+
+</resources>

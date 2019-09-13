@@ -1,0 +1,5 @@
+include(
+        ':app',
+        ':modules:resources',
+        ':modules:theme'
+)

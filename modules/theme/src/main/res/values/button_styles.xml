@@ -1,0 +1,126 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="App.ThemeOverlay.Widget.Button" parent="App.ThemeOverlay">
+        <item name="colorPrimary">?android:colorBackground</item>
+        <item name="colorOnPrimary">?colorOnBackground</item>
+    </style>
+
+    <style name="App.ThemeOverlay.Widget.Button.Primary">
+        <item name="colorPrimary">@color/colorPrimary</item>
+    </style>
+
+    <style name="App.ThemeOverlay.Widget.Button.Secondary">
+        <item name="colorPrimary">@color/colorSecondary</item>
+    </style>
+
+    <style name="App.ThemeOverlay.Widget.OutlinedButton" parent="App.ThemeOverlay"/>
+
+    <style name="App.ThemeOverlay.Widget.OutlinedButton.Primary">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorOnSurface">@color/colorPrimary</item>
+    </style>
+
+    <style name="App.ThemeOverlay.Widget.OutlinedButton.Secondary">
+        <item name="colorPrimary">@color/colorSecondary</item>
+        <item name="colorOnSurface">@color/colorSecondary</item>
+    </style>
+
+
+    <!-- Styles -->
+
+    <!-- Contained Button -->
+    <style name="App.Widget.Button" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button</item>
+    </style>
+
+    <style name="App.Widget.Button.Primary" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button.Primary</item>
+    </style>
+
+    <style name="App.Widget.Button.Secondary" parent="Widget.MaterialComponents.Button">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button.Secondary</item>
+    </style>
+
+    <style name="App.Widget.Button.Icon" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button</item>
+    </style>
+
+    <style name="App.Widget.Button.Primary.Icon" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button.Primary</item>
+    </style>
+
+    <style name="App.Widget.Button.Secondary.Icon" parent="Widget.MaterialComponents.Button.Icon">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button.Secondary</item>
+    </style>
+
+    <!-- Unelevated Button -->
+    <style name="App.Widget.UnelevatedButton" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button</item>
+    </style>
+
+    <style name="App.Widget.UnelevatedButton.Primary" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button.Primary</item>
+    </style>
+
+    <style name="App.Widget.UnelevatedButton.Secondary" parent="Widget.MaterialComponents.Button.UnelevatedButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.Button.Secondary</item>
+    </style>
+
+
+    <!-- Outlined Button -->
+    <style name="Base.App.Widget.OutlinedButton" parent="Widget.MaterialComponents.Button.OutlinedButton">
+    </style>
+
+    <style name="App.Widget.OutlinedButton" parent="Base.App.Widget.OutlinedButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.OutlinedButton</item>
+    </style>
+
+    <style name="App.Widget.OutlinedButton.Primary" parent="Base.App.Widget.OutlinedButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.OutlinedButton.Primary</item>
+    </style>
+
+    <style name="App.Widget.OutlinedButton.Secondary" parent="Base.App.Widget.OutlinedButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.OutlinedButton.Secondary</item>
+    </style>
+
+
+    <!-- Text Button -->
+    <style name="App.Widget.TextButton" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.OutlinedButton</item>
+    </style>
+
+    <style name="App.Widget.TextButton.Primary" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.OutlinedButton.Primary</item>
+    </style>
+
+    <style name="App.Widget.TextButton.Secondary" parent="Widget.MaterialComponents.Button.TextButton">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.OutlinedButton.Secondary</item>
+    </style>
+
+
+    <!-- Dialog Button -->
+    <style name="App.Widget.Button.Dialog" parent="Widget.MaterialComponents.Button.TextButton.Dialog">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.OutlinedButton.Primary</item>
+    </style>
+
+    <style name="App.Widget.Button.Dialog.Flush" parent="Widget.MaterialComponents.Button.TextButton.Dialog.Flush">
+        <item name="materialThemeOverlay">@style/App.ThemeOverlay.Widget.OutlinedButton.Primary</item>
+    </style>
+
+    <!-- Fab -->
+    <style name="App.Widget.FloatingActionButton" parent="Widget.MaterialComponents.FloatingActionButton">
+        <!-- Undefined (Default) -->
+    </style>
+
+    <style name="App.Widget.FloatingActionButton.Surface" parent="Widget.MaterialComponents.FloatingActionButton">
+        <item name="backgroundTint">?colorSurface</item>
+        <item name="tint">?colorOnSurface</item>
+    </style>
+
+    <!-- Extended Fab -->
+    <style name="App.Widget.ExtendedFloatingActionButton" parent="Widget.MaterialComponents.ExtendedFloatingActionButton"/>
+
+    <style name="App.ExtendedFloatingActionButton.Icon" parent="Widget.MaterialComponents.ExtendedFloatingActionButton.Icon"/>
+
+</resources>

@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <!-- Brand Color - Defined by Designers (Example) -->
+
+    <color name="colorPrimary">#c8e6c9</color>
+    <color name="colorPrimaryDark">#97b498</color>
+
+    <color name="colorSecondary">#ff9800</color>
+    <color name="colorSecondaryDark">#c66900</color>
+
+    <color name="textColor">#000000</color>
+    <color name="textColorGrey">#A0A0A0</color>
+
+    <color name="backgroundWhite">#ffffff</color>
+    <color name="backgroundGrey">#f5f5f5</color>
+
+</resources>

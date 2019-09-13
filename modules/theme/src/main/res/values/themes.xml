@@ -1,0 +1,38 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <style name="AppTheme" parent="Theme.MaterialComponents.Light.NoActionBar">
+        <!-- Primary -->
+        <item name="colorPrimary">@color/mc_colorPrimary</item>
+        <item name="colorPrimaryVariant">@color/mc_colorPrimaryVariant</item>
+        <item name="colorOnPrimary">@color/mc_colorOnPrimary</item>
+
+        <!-- Secondary -->
+        <item name="colorSecondary">@color/mc_colorSecondary</item>
+        <item name="colorSecondaryVariant">@color/mc_colorSecondaryVariant</item>
+        <item name="colorOnSecondary">@color/mc_colorOnSecondary</item>
+
+        <!-- Background -->
+        <item name="android:colorBackground">@color/mc_colorBackground</item>
+        <item name="colorOnBackground">@color/mc_colorOnBackground</item>
+
+        <!-- Surface -->
+        <item name="colorSurface">@color/mc_colorSurface</item>
+        <item name="colorOnSurface">@color/mc_colorOnSurface</item>
+
+        <!-- Texts -->
+        <item name="android:textColorPrimary">@color/mc_textColorPrimary</item>
+        <item name="android:textColorSecondary">@color/mc_textColorSecondary</item>
+
+        <item name="android:statusBarColor">?colorPrimaryVariant</item>
+
+        <!-- Default component styles -->
+        <item name="appBarLayoutStyle">@style/App.Widget.AppbarLayout</item>
+        <item name="materialButtonStyle">@style/App.Widget.Button</item>
+        <item name="materialButtonOutlinedStyle">@style/App.Widget.OutlinedButton</item>
+
+    </style>
+
+    <style name="App.ThemeOverlay" parent="ThemeOverlay.MaterialComponents" />
+
+</resources>

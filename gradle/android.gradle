@@ -1,0 +1,31 @@
+/*
+ * apply from: rootProject.file('gradle/android.gradle')
+ */
+
+android {
+    compileSdkVersion androidBuild.compileSdkVersion
+
+    defaultConfig {
+        minSdkVersion androidBuild.minSdkVersion
+
+        testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
+    }
+
+    dataBinding {
+        enabled = true
+    }
+
+    buildTypes {
+        release {
+            minifyEnabled true
+            consumerProguardFiles 'proguard-rules.pro'
+        }
+    }
+}
+
+// https://kotlinlang.org/docs/reference/whatsnew13.html#progressive-mode
+//kotlin.sourceSets.all {
+//    languageSettings {
+//        progressiveMode = true
+//    }
+//}

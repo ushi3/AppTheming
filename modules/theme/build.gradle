@@ -1,0 +1,11 @@
+apply plugin: 'com.android.library'
+apply plugin: 'kotlin-android'
+
+apply from: rootProject.file('gradle/android.gradle')
+
+dependencies {
+    implementation project(':modules:resources')
+
+    implementation deps.kotlin.stdlibJvm
+    api deps.android.material
+}

@@ -1,0 +1,66 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources xmlns:tools="http://schemas.android.com/tools">
+
+    <!-- TextAppearances -->
+    <style name="App.TextAppearance.Title1" parent="TextAppearance.MaterialComponents.Headline5"/>
+
+    <style name="App.TextAppearance.Title2" parent="TextAppearance.MaterialComponents.Headline6"/>
+
+    <style name="App.TextAppearance.Subtitle1" parent="TextAppearance.MaterialComponents.Subtitle1"/>
+
+    <style name="App.TextAppearance.Subtitle2" parent="TextAppearance.MaterialComponents.Subtitle2"/>
+
+    <style name="App.TextAppearance.Body1" parent="TextAppearance.MaterialComponents.Body1"/>
+
+    <style name="App.TextAppearance.Body2" parent="TextAppearance.MaterialComponents.Body2"/>
+
+    <style name="App.TextAppearance.Button" parent="TextAppearance.MaterialComponents.Button"/>
+
+    <style name="App.TextAppearance.Caption" parent="TextAppearance.MaterialComponents.Caption"/>
+
+    <style name="App.TextAppearance.Overline" parent="TextAppearance.MaterialComponents.Overline"/>
+
+
+    <!-- Text Styles-->
+    <style name="Base.App.Widget.TextView" parent="android:Widget">
+        <item name="android:fallbackLineSpacing" tools:targetApi="p">false</item>
+    </style>
+
+    <style name="App.Widget.TextView.Title1" parent="Base.App.Widget.TextView">
+        <item name="android:textAppearance">@style/App.TextAppearance.Title1</item>
+    </style>
+
+    <style name="App.Widget.TextView.Title2" parent="Base.App.Widget.TextView">
+        <item name="android:textAppearance">@style/App.TextAppearance.Title2</item>
+    </style>
+
+    <style name="App.Widget.TextView.Subtitle1" parent="Base.App.Widget.TextView">
+        <item name="android:textAppearance">@style/App.TextAppearance.Subtitle1</item>
+    </style>
+
+    <style name="App.Widget.TextView.Subtitle2" parent="Base.App.Widget.TextView">
+        <item name="android:textAppearance">@style/App.TextAppearance.Subtitle2</item>
+    </style>
+
+    <style name="App.Widget.TextView.Body1" parent="Base.App.Widget.TextView">
+        <item name="android:textAppearance">@style/App.TextAppearance.Body1</item>
+    </style>
+
+    <style name="App.Widget.TextView.Body2" parent="Base.App.Widget.TextView">
+        <item name="android:textAppearance">@style/App.TextAppearance.Body2</item>
+    </style>
+
+    <style name="App.Widget.TextView.Caption" parent="Base.App.Widget.TextView">
+        <item name="android:textAppearance">@style/App.TextAppearance.Caption</item>
+    </style>
+
+    <style name="App.Widget.TextView.Overline" parent="Base.App.Widget.TextView">
+        <item name="android:textAppearance">@style/App.TextAppearance.Overline</item>
+    </style>
+
+    <!-- For Dialog -->
+    <style name="App.Dialog.Text.Title" parent="MaterialAlertDialog.MaterialComponents.Title.Text">
+        <item name="android:textAppearance">@style/App.TextAppearance.Title2</item>
+    </style>
+
+</resources>
